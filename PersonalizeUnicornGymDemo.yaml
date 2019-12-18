@@ -63,7 +63,7 @@ Resources:
       NotebookInstanceName: !Ref NotebookName
       RoleArn: !GetAtt SageMakerIamRole.Arn
       VolumeSizeInGB: !Ref VolumeSize
-      DefaultCodeRepository: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/TheAllStore
+      DefaultCodeRepository: https://github.com/towwei/personalize-unicorngym2019.git
 
 Outputs:
   S3Bucket:
